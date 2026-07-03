@@ -1,0 +1,611 @@
+/*Social Bar CSS*/
+.SocialBar{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: auto;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    padding-left: auto;
+}
+
+.facebook{
+    background-color:transparent;
+    background-image: url(Socials/facebook.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+.instagram{
+    background-color:transparent;
+    background-image: url(Socials/instagram.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+.youtube{
+    background-color:transparent;
+    background-image: url(Socials/youtube.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+.snapchat{
+    background-color:transparent;
+    background-image: url(Socials/snapchat.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+
+/*End Of Social Bar*/
+html, body{
+    background-image: linear-gradient(to right,rgb(96, 116, 145),rgb(69, 78, 95), rgb(77, 85, 99),rgb(96, 116, 145));
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    display: grid;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: myfont;
+    scroll-behavior: smooth;
+    position: fixed;
+}
+
+.header {
+    background-image: linear-gradient(to right,rgb(96, 116, 145),rgb(69, 78, 95), rgb(77, 85, 99),rgb(96, 116, 145));
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: auto;
+    height: 100%;
+    width: 100vw;
+    text-align: center;
+    display: block;
+    z-index: 999;
+}
+.headerlogo{
+    position: relative;
+    height: 2vh;
+    width: 40vw;
+    padding: none;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+    left: 29vw;
+    margin: none;
+    border: none;
+    border-radius: none;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+.header a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+main{background-color: transparent;
+margin: 0px;
+height: 100%;
+width: 100%;
+flex-direction: column;
+}
+
+/*Button Styles Below*/
+@font-face {
+    font-family: MyFont;
+    src: url(Montserrat-Italic-VariableFont_wght.ttf);
+}
+
+.navbtns {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    height: 10%;
+    width: 100%;
+    z-index: 999;
+}
+.homebtn {
+    background-color:rgba(188, 201, 214);
+    background-image: linear-gradient(to bottom, rgb(211, 220, 228), rgb(68, 79, 94));
+    color: rgb(0, 0, 0);
+    border: 0px;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 2px;
+    cursor: pointer;
+    border-radius: 100px 10px;
+    box-shadow: 5px 5px rgba(6, 79, 202);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: myfont;
+}
+
+.homebtn:hover {
+    background-image: linear-gradient(to bottom, rgb(80, 170, 255), rgba(6, 79, 202));
+  transform: scale(1.1);
+  z-index: 999;
+}
+
+
+.svcbtn {
+    background-color:rgba(188, 201, 214);
+    background-image: linear-gradient(to bottom, rgb(211, 220, 228), rgb(68, 79, 94));
+    color: rgb(0, 0, 0);
+    border: 0px;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 2px;
+    cursor: pointer;
+    border-radius: 100px 10px;
+    box-shadow: 5px 5px rgba(6, 79, 202);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: myfont;
+}
+
+.svcbtn:hover {
+    background-image: linear-gradient(to bottom, rgb(80, 170, 255), rgba(6, 79, 202));
+  transform: scale(1.1);
+}
+.phobtn {
+    background-color:rgba(188, 201, 214);
+    background-image: linear-gradient(to bottom, rgb(211, 220, 228), rgb(68, 79, 94));
+    color: rgb(0, 0, 0);
+    border: 0px;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 2px;
+    cursor: pointer;
+    border-radius: 100px 10px;
+    box-shadow: 5px 5px rgba(6, 79, 202);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: myfont;
+}
+
+.phobtn:hover {
+    background-image: linear-gradient(to bottom, rgb(80, 170, 255), rgba(6, 79, 202));
+  transform: scale(1.1);
+}
+.quotebtn {
+    background-color:rgba(188, 201, 214);
+    background-image: linear-gradient(to bottom, rgb(211, 220, 228), rgb(68, 79, 94));
+    color: rgb(0, 0, 0);
+    border: 0px;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 100px 10px;
+    box-shadow: 5px 5px rgba(6, 79, 202);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: myfont;
+}
+.quotebtn:hover {
+    background-image: linear-gradient(to bottom, rgb(80, 170, 255), rgba(6, 79, 202));
+  transform: scale(1.1);
+}
+.abtbtn {
+    background-color:rgba(188, 201, 214);
+    background-image: linear-gradient(to bottom, rgb(211, 220, 228), rgb(68, 79, 94));
+    color: rgb(0, 0, 0);
+    border: 0px;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 2px;
+    cursor: pointer;
+    border-radius: 100px 10px;
+    box-shadow: 5px 5px rgba(6, 79, 202);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-family: myfont;
+}
+
+.abtbtn:hover {
+    background-image: linear-gradient(to bottom, rgb(80, 170, 255), rgba(6, 79, 202));
+  transform: scale(1.1);
+}
+/*Home Main Content Below*/
+
+.content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 1px;
+    padding: none;
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    flex:1;
+}
+.backmainpic {
+    background-image:url(Logo/DONT_USE_WHEN_LIVE);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 50%;
+    width: 100%;
+    padding: none;
+    margin: none;
+    border: none;
+    border-radius: none;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+
+.quotebtnmain{
+    background-color:rgb(238, 90, 90);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 2px;
+    cursor: pointer;
+    border-radius: 100px 10px;
+    box-shadow: 5px 10px #1d1d1d;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    justify-content: center;
+    width: 50vw;
+    max-width: 400px;
+
+}
+.quotebtnmain:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+.maincont{
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    align-content: center;
+    display: block;
+    padding-bottom: 0px;
+    background-color: transparent;
+}
+.maincont img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.maincontbottom {
+    background-color: transparent;
+    height: 100%;
+    width: 70vw;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    font-size: 19px;
+    border: none solid transparent;
+    border-radius: 50px;
+    text-align: center;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+
+/*Service Main Content Below*/
+.svcmain {
+    background-color: transparent;
+    float: center;
+    height: auto;
+    width: 75%;
+    padding: 5px;
+    margin: auto;
+    border: 0px solid #ffffff;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/*Photo Main Content Below*/
+.photosmain {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    background-color: transparent;
+    height: 100%;
+    width: 100vw;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+#ch{
+    display: none;
+}
+
+.photoshow{
+    background-color:rgb(238, 90, 90);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 2px;
+    cursor: pointer;
+    border-radius: 100px 10px;
+    box-shadow: 5px 10px #1d1d1d;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    justify-content: center;
+    left: 40vw;
+    max-width: 20vw;
+}
+.photoshow:hover {
+    background-image: linear-gradient(to bottom, rgb(80, 170, 255), rgba(6, 79, 202));
+  transform: scale(1.1);
+}
+
+label {
+    display: flex;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    padding: 10px 13px;
+    border-radius: 9px;
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+
+}
+
+
+
+.Showmorecont{
+    display: none;
+}
+
+#ch:checked ~ .Showmorecont{
+    display: block;
+}
+
+#ch:checked ~ label{
+    display: none;
+}
+
+/*Quote Main Content Below*/
+.quotemain {
+    background-color: transparent;
+    float: center;
+    display: block;
+    height: auto;
+    width: 80vw;
+    padding: 5px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: myfont;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.quotetitle{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    height: 10vh;
+    width: auto;
+    padding-bottom:3vh;
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+form{
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #5bcefa;
+    font-size: 20px;
+    font-family: myfont;
+}
+
+textarea{
+    background-color:rgb(211, 220, 228);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: text;
+    box-shadow: 5px 10px #1d1d1d;
+    width: 40%;
+}
+
+input[type="text"],select textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 0%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;}
+input[type="text"] {
+    background-color:rgb(211, 220, 228);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: text;
+    box-shadow: 5px 10px #1d1d1d;
+    width: auto;
+}
+
+input[type="email"],select textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;}
+input[type="email"] {
+    background-color:rgb(211, 220, 228);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: text;
+    box-shadow: 5px 10px #1d1d1d;
+    width: auto;
+}
+
+input[type="tel"],select textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;}
+input[type="tel"] {
+    background-color:rgb(211, 220, 228);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: text;
+    box-shadow: 5px 10px #1d1d1d;
+    width: auto;
+}
+
+textarea{resize: none;}
+
+input[type="details"],select textarea {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.detailsbox{
+    background-color:rgb(211, 220, 228);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: text;
+    box-shadow: 5px 10px #1d1d1d;
+    width: auto;
+    max-width: 60vw;
+}
+
+input[type="file"]{
+    background-color:transparent;
+    color: rgb(0, 0, 0);
+    padding-bottom: 4px;
+    padding-left: 5%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: text;
+    width: auto;
+}
+
+
+input[type="submit"] {
+    background-color:rgb(238, 90, 90);
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 2px;
+    cursor: pointer;
+    border-radius: 100px 10px;
+    box-shadow: 5px 10px #1d1d1d;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/*About Main Content Below*/
+.aboutmain {
+    background-color: #a5a5a5;
+    float: center;
+    height: 100vh;
+    width: 80%;
+    padding: 5px;
+    padding-top: 10px;
+    margin: auto;
+    border: 10px solid transparent;
+    border-radius: 15px;
+    text-align: center;
+    overflow-x: hidden;
+    font-size: 20px;
+    justify-content: center;
+}
+/*Footer Styles Below*/
+.footer {
+    background-color: #1d1d1d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
+    bottom: 10px;
+    overflow-x: hidden;
+    bottom: auto;
+}
