@@ -9,13 +9,13 @@
 <header>
     <div class="header">
         <div class="headerlogo">
-        <a href="index.html">
+        <a href="Index.html">
             <img src="Logo/Logo Small.png" alt="Kyle's PDR" height="80" width="250">
         </a>
         </div>
     <nav>
     <div class="navbtns">
-    <a href="index.html">
+    <a href="Index.html">
     <button class="homebtn" >Home</button>
     </a>
     <a href="Services.html">
@@ -46,12 +46,18 @@
         <input type="email" id="email" name="email" placeholder="John.Doe@Example.com" required><br>
         <p>Phone Number</p>
         <input type="tel" id="phone" name="phone" placeholder="123-456-7890" required><br>
-        <p>Details About The Damage</p>
-        <textarea class="detailsbox" id="details" name="details" rows="10" cols="40" maxlength="500" placeholder="Example: 3 inch Hail Dent On Driver Fender" required></textarea>
+        <input type="radio" name="radio" value="2inch" required>2 Inch Dent<br>
+        <input type="radio" name="radio" value="4inch" required>4 Inch Dent<br>
+        <input type="radio" name="radio" value="6inch" required>6 Inch Dent<br>
+        <input type="radio" name="radio" value="hail" required>Hail Damage<br>
+        <p>Vehicle Year, Make, Model</p>
+        <input type="text" id="year-make-model" name="year-make-model" placeholder="2020 Honda Civic" required>
         <br><br>
+        <p>Upload Photos</p>
         <input type="file" id="file" name="file" multiple>
         <br><br>
         <input type="submit" value="Submit">
+        <br><br>
         </form>
     </main>
 </body>
