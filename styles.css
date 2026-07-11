@@ -1,69 +1,5 @@
-/*Social Bar CSS*/
-.SocialBar{
-    background-color: transparent;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 0px;
-    padding-bottom: 10px;
-    margin: auto;
-    height: auto;
-    width: 80%;
-    text-align: center;
-    display: flex;
-    z-index: 999;
-    justify-content: center;
-    align-items: center;
-    padding-left: auto;
-}
-
-.facebook{
-    background-color:transparent;
-    background-image: url(Socials/facebook.png);
-    background-size: cover;
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-    margin: 10px;
-    display: block;
-}
-
-.instagram{
-    background-color:transparent;
-    background-image: url(Socials/instagram.png);
-    background-size: cover;
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-    margin: 10px;
-    display: block;
-}
-
-.youtube{
-    background-color:transparent;
-    background-image: url(Socials/youtube.png);
-    background-size: cover;
-    width: 30px;
-    height: 30px;
-    padding: 10px;
-    margin: 10px;
-    display: block;
-}
-
-.snapchat{
-    background-color:transparent;
-    background-image: url(Socials/snapchat.png);
-    background-size: cover;
-    width: 20px;
-    height: 20px;
-    padding: 10px;
-    margin: 10px;
-    display: block;
-}
-
-
-/*End Of Social Bar*/
 html, body{
-    background-image: linear-gradient(to right,rgb(96, 116, 145),rgb(69, 78, 95), rgb(77, 85, 99),rgb(96, 116, 145));
+    background-image: linear-gradient(to right,#2a354b,#43526e, #43526e,#2a354b);
     padding: 0;
     margin: 0;
     height: 100%;
@@ -78,7 +14,7 @@ html, body{
 }
 
 .header {
-    background-image: linear-gradient(to right,rgb(96, 116, 145),rgb(69, 78, 95), rgb(77, 85, 99),rgb(96, 116, 145));
+    background-image: linear-gradient(to right,#2a354b,#43526e, #43526e,#2a354b);
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 0px;
@@ -289,7 +225,6 @@ flex-direction: column;
     justify-content: center;
     width: 50vw;
     max-width: 400px;
-
 }
 .quotebtnmain:hover {
   background-color: #555;
@@ -404,8 +339,6 @@ label {
 
 }
 
-
-
 .Showmorecont{
     display: none;
 }
@@ -468,6 +401,7 @@ form{
     font-size: 20px;
     font-family: myfont;
 }
+
 
 textarea{
     background-color:rgb(211, 220, 228);
@@ -599,13 +533,76 @@ input[type="submit"] {
 }
 /*Footer Styles Below*/
 .footer {
-    background-color: #1d1d1d;
+    background-image: linear-gradient(to right,#1a202c,#1a202c, #1a202c,#1a202c);
     color: white;
     text-align: center;
     padding: 10px;
     margin-top: auto;
     width: 100%;
     bottom: 10px;
-    overflow-x: hidden;
     bottom: auto;
 }
+/*Social Bar CSS*/
+.SocialBar{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin: auto;
+    height: auto;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    z-index: 999;
+    justify-content: center;
+    align-items: center;
+    padding-left: auto;
+}
+
+.facebook{
+    background-color:transparent;
+    background-image: url(Socials/facebook.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+.instagram{
+    background-color:transparent;
+    background-image: url(Socials/instagram.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+.youtube{
+    background-color:transparent;
+    background-image: url(Socials/youtube.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+.snapchat{
+    background-color:transparent;
+    background-image: url(Socials/snapchat.png);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    margin: 10px;
+    display: block;
+}
+
+
+/*End Of Social Bar*/
